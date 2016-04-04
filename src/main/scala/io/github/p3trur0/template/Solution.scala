@@ -22,7 +22,7 @@ object Solution {
 /**
  * Object used for local tests
  */
-object Test extends App {
+object TestSolution {
   /**
    * Utility function to evaluate the elapsed time of a function execution
    */
@@ -34,10 +34,10 @@ object Test extends App {
     result
   }
 
-  elapsedTime {
-    //Solution.runFromScanner(new java.util.Scanner(new File("~/testfiles/test3.file")))
-    Solution.runFromStdin(scala.io.Source.fromFile("~/testfiles/test.file", "utf-8"))
-  }
+//  elapsedTime {
+//    //Solution.runFromScanner(new java.util.Scanner(new File("~/testfiles/test3.file")))
+//    Solution.runFromStdin(scala.io.Source.fromFile("~/testfiles/test.file", "utf-8"))
+//  }
 }
 
 
