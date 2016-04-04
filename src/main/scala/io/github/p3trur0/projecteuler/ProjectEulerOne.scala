@@ -13,16 +13,5 @@ object ProjectEulerOne {
     Range.Long(secondLimit, inputData, secondLimit).sum - 
     Range.Long(firstLimit*secondLimit, inputData, firstLimit*secondLimit).sum
   } 
-  
- 
-}
-
-
-object Solution {
-  def main(args: Array[String]) {
-    var input = readLine.toInt
-    (1 to input).foreach { x => println(ProjectEulerOne.execute(3, 5, readLine.toLong)) }
-  }
-
 }
 

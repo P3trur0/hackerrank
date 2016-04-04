@@ -2,7 +2,7 @@ package io.github.p3trur0.template
 /**
  * This is the companion object to be implemented for hackerrank exercise
  */
-object Solution {
+object TemplateSolution {
 
   def main(args: Array[String]) {
     //execution(io.Source.stdin)
